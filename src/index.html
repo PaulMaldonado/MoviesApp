@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Movies App</title>
+</head>
+<body>
+    <div class="navbar fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Movies App</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col s12">
+                <div class="card-panel z-depth-3">
+                    <form id="form-movies">
+                        <div class="input-field col s12">
+                            <input type="text" id="name">
+                            <label for="name">Nombre de la pelicula</label>
+                        </div>
+                        
+                        <div class="input-field col s12">
+                            <input type="text" id="description" class="materialize-textarea">
+                            <label for="description">Descripción de la pelicula</label>
+                        </div>
+                        
+                        <div class="input-field col s12">
+                            <input type="text" id="genro">
+                            <label for="genro">Genero</label>
+                        </div>
+                        
+                        <div class="input-field col s12">
+                            <input type="date" id="year">
+                            <label for="year">Fecha de lanzamiento</label>
+                        </div>
+                        
+                        <button class="btn blue darken-4 button-left">Guardar Pelicula</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="show-all-movies"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase-firestore.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../src/js/app.js"></script>
+</body>
+</html>

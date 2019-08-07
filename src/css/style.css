@@ -1,0 +1,15 @@
+.nav-wrapper {
+    background: #0d47a1;
+}
+
+.brand-logo {
+    margin-left: 50px;
+}
+
+.row, .mt-4 {
+    margin-top: 40px;
+}
+
+.btn, .button-left {
+    margin-left: 10px;
+}
