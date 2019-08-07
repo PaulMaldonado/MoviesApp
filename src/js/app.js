@@ -1,9 +1,9 @@
 // Added firebase sdk
 
 firebase.initializeApp({
-    apiKey: 'AIzaSyCmHERLZVfa81k0C7pALmUJ-DPJad1GVN4',
-    authDomain: 'moviesapp-5a144.firebaseapp.com',
-    projectId: 'moviesapp-5a144'
+    apiKey: '################################',
+    authDomain: '############################',
+    projectId: '#############################'
   });
   
   let db = firebase.firestore();
